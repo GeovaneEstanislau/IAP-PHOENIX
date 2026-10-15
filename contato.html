@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato e Doações | IAP Phoenix</title>
+  <meta name="description" content="Entre em contato com o Instituto de Apoio Popular – IAP Phoenix. Faça sua doação via Pix, proponha parcerias sociais ou participe de nossas ações em Belo Horizonte." />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="page-wrapper">
+
+    <!-- Hero Canvas Contato -->
+    <section class="hero-canvas" style="min-height: 55vh;">
+      <div class="hero-backdrop" style="background-image: linear-gradient(180deg, rgba(8, 9, 11, 0.45) 0%, rgba(8, 9, 11, 0.9) 100%), url('assets/images/foto_12.jpg');" aria-hidden="true"></div>
+
+      <div class="hero-content-wrapper">
+        <header class="canvas-header">
+          <a href="index.html" class="brand-emblem">
+            <img src="assets/images/foto_01.jpg" alt="Logo IAP Phoenix" class="brand-logo-img" />
+            <div class="brand-title">
+              <span class="brand-name">IAP Phoenix</span>
+              <span class="brand-subtitle">Utilidade Pública Estadual</span>
+            </div>
+          </a>
+
+          <nav class="canvas-nav" id="canvasNav">
+            <a href="index.html" class="nav-item">Início</a>
+            <a href="about.html" class="nav-item">História</a>
+            <a href="projetos.html" class="nav-item">Projetos</a>
+            <a href="index.html#galeria" class="nav-item">Acervo</a>
+            <a href="contato.html" class="nav-item active">Contato</a>
+          </nav>
+
+          <div class="header-cta-group">
+            <a href="#doar" class="btn-pill-light" style="padding: 10px 20px; font-size: 0.84rem;">
+              Doar via Pix <span class="arrow-icon">→</span>
+            </a>
+            <button class="menu-trigger" id="menuTrigger" aria-label="Abrir menu">☰ Menu</button>
+          </div>
+        </header>
+
+        <div class="hero-bottom-grid" style="padding-top: 40px;">
+          <div class="hero-statement">
+            <span class="hero-eyebrow">Fale com o Instituto</span>
+            <h1 class="hero-giant-title" style="font-size: clamp(3.2rem, 7vw, 6rem);">
+              Contato <span class="asterisk">*</span>
+            </h1>
+          </div>
+          <div class="hero-side-editorial">
+            <p class="hero-narrative">
+              Sua colaboração viabiliza tatames, alimentação, reforço pedagógico e dignidade para centenas de famílias em Belo Horizonte e região metropolitana.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Contato e Pix -->
+    <section class="section-inset dark-accent" id="doar">
+      <div class="container">
+        
+        <div class="contact-layout-modern">
+          
+          <div>
+            <div class="editorial-tag">✦ Canais Oficiais de Atendimento</div>
+            <h2 class="editorial-headline" style="font-size: 2.2rem;">
+              Estamos abertos a apoios, voluntários e novos parceiros.
+            </h2>
+
+            <div class="pix-donation-box">
+              <h4 style="font-size: 1.15rem; color: #fff; margin-bottom: 8px;">Apoio Direto via Chave Pix</h4>
+              <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.7;">
+                Qualquer contribuição financeira é direcionada integralmente à compra de quimonos (doboks), tatames, lanches e material didático para as crianças assistidas.
+              </p>
+
+              <div class="pix-key-wrapper">
+                <span class="pix-key-text">05.685.682/0001-37</span>
+                <button class="btn-copy-pix" data-pix="05.685.682/0001-37">Copiar Pix</button>
+              </div>
+
+              <span style="font-size: 0.8rem; color: var(--text-muted); display: block;">
+                Chave CNPJ: 05.685.682/0001-37 — Instituto de Apoio Popular
+              </span>
+            </div>
+
+            <!-- Dados Cadastrais -->
+            <div class="bento-card" style="margin-top: 24px; padding: 24px;">
+              <h4 style="font-size: 1rem; color: #fff; margin-bottom: 12px;">Sede Institucional</h4>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.8;">
+                📍 <strong>Endereço:</strong> Rua Nogueira da Gama, 928 / 930<br>
+                Bairro Alto dos Pinheiros — CEP 30530-100<br>
+                Belo Horizonte – MG, Brasil<br>
+                📞 <strong>Telefone:</strong> (31) 3376-2882<br>
+                ✉️ <strong>E-mails:</strong> contato@iapphoenix.org / diretoria-iapphoenix@hotmail.com<br>
+                🕒 <strong>Horário de Atendimento:</strong> Segunda a Sexta, das 08h às 17h
+              </p>
+            </div>
+          </div>
+
+          <!-- Formulário de Mensagem -->
+          <div class="bento-card" style="padding: 36px;">
+            <div class="card-top-meta">
+              <span class="card-badge badge-amber">Envie sua Mensagem</span>
+            </div>
+
+            <form class="form-modern" id="contactForm">
+              <div class="form-group-modern">
+                <label class="form-label-modern" for="name">Seu Nome Completo</label>
+                <input type="text" id="name" name="name" class="form-input-modern" placeholder="Digite seu nome" required />
+              </div>
+
+              <div class="form-group-modern">
+                <label class="form-label-modern" for="email">Seu E-mail</label>
+                <input type="email" id="email" name="email" class="form-input-modern" placeholder="seuemail@exemplo.com" required />
+              </div>
+
+              <div class="form-group-modern">
+                <label class="form-label-modern" for="subject">Assunto</label>
+                <select id="subject" name="subject" class="form-input-modern" style="color: #fff; background: var(--bg-card);">
+                  <option value="doacao">Quero fazer uma doação ou apoiar financeiramente</option>
+                  <option value="parceria">Parceria institucional ou governamental</option>
+                  <option value="voluntariado">Voluntariado ou aulas voluntárias</option>
+                  <option value="matricula">Informações sobre projetos e turmas</option>
+                  <option value="outro">Outro assunto</option>
+                </select>
+              </div>
+
+              <div class="form-group-modern">
+                <label class="form-label-modern" for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="5" class="form-textarea-modern" placeholder="Como podemos colaborar juntos?" required></textarea>
+              </div>
+
+              <button type="submit" class="btn-pill-light" style="justify-content: center; width: 100%; border: none; cursor: pointer; margin-top: 8px;">
+                Enviar Mensagem <span class="arrow-icon">→</span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-canvas">
+      <div class="footer-top-grid">
+        <div>
+          <div class="brand-emblem" style="margin-bottom: 16px;">
+            <img src="assets/images/foto_01.jpg" alt="Logo IAP Phoenix" class="brand-logo-img" />
+            <div class="brand-title">
+              <span class="brand-name">IAP Phoenix</span>
+              <span class="brand-subtitle">Utilidade Pública Estadual</span>
+            </div>
+          </div>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.7; max-width: 360px;">
+            Instituto de Apoio Popular – IAP Phoenix<br>
+            CNPJ: 05.685.682/0001-37<br>
+            Entidade de Utilidade Pública Estadual (Lei nº 15.532/2005)<br>
+            Belo Horizonte – Minas Gerais, Brasil.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navegação</h4>
+          <div class="footer-links-list">
+            <a href="index.html" class="footer-link-item">Início</a>
+            <a href="about.html" class="footer-link-item">Nossa História & Linha do Tempo</a>
+            <a href="projetos.html" class="footer-link-item">Frentes de Ação & Projetos</a>
+            <a href="contato.html" class="footer-link-item">Contato & Chave Pix</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Registros Oficiais</h4>
+          <div class="footer-links-list">
+            <a href="https://www.almg.gov.br/legislacao-mineira/texto/LEI/15532/2005" target="_blank" rel="noopener" class="footer-link-item">Lei 15.532/2005 – ALMG</a>
+            <a href="https://www.tce.mg.gov.br/pesquisa_processo.asp?cod_processo=1066832" target="_blank" rel="noopener" class="footer-link-item">Processo TCE-MG / SEGOV</a>
+            <a href="https://www.copacentenario.com.br/estatistica_equipe.php?cod_equipe=1156" target="_blank" rel="noopener" class="footer-link-item">Copa Centenário da PBH</a>
+            <a href="https://www.camara.leg.br" target="_blank" rel="noopener" class="footer-link-item">Câmara dos Deputados (PL 7.232/2010)</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-legal-bar">
+        <span>© <span id="year"></span> Instituto de Apoio Popular – IAP Phoenix. Todos os direitos reservados.</span>
+        <span>Belo Horizonte · Minas Gerais</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
